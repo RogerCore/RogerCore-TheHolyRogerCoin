@@ -1,12 +1,13 @@
 *.tar.gz
 
 *.exe
-src/litecoin
-src/litecoind
-src/litecoin-cli
-src/litecoin-tx
-src/test/test_litecoin
-src/qt/test/test_litecoin-qt
+src/theholyroger
+src/theholyrogerd
+src/theholyroger-cli
+src/theholyroger-tx
+src/test/test_theholyroger
+src/test/test_theholyroger_fuzzy
+src/qt/test/test_theholyroger-qt
 
 # autoreconf
 Makefile.in
@@ -55,7 +56,7 @@ src/qt/test/moc*.cpp
 *.o
 *.o-*
 *.patch
-.litecoin
+.theholyroger
 *.a
 *.pb.cc
 *.pb.h
@@ -74,12 +75,13 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-litecoin-qt
-Litecoin-Qt.app
+theholyroger-qt
+theholyroger-Qt.app
+background.tiff*
 
 # Unit-tests
 Makefile.test
-litecoin-qt_test
+theholyroger-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -93,7 +95,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_bitcoin.coverage/
+test_theholyroger.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -115,3 +117,5 @@ share/BitcoindComparisonTool.jar
 
 libbitcoinconsensus.pc
 contrib/devtools/split-debug.sh
+
+src/qt/res/icons/Thumbs\.db
